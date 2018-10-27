@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Slider v-model="value" range></Slider>
   </div>
 </template>
 
@@ -14,5 +13,11 @@ export default {
   components: {
     HelloWorld,
   },
+  data() {
+    return {
+      value: [20, 50]
+    }
+  }
 };
 </script>
+

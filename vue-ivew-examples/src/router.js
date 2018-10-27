@@ -21,5 +21,35 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
     },
+    {
+      path: '/example01',
+      name: 'example01',
+      component: () => import(/* webpackChunkName: "example01" */ './views/Example01.vue'),
+    },
+    {
+      path: '/example02',
+      name: 'example02',
+      component: () => import(/* webpackChunkName: "example02" */ './views/Example02.vue'),
+    },
+    {
+      path: '/example03',
+      name: 'example03',
+      component: () => import(/* webpackChunkName: "example03" */ './views/Example03.vue'),
+    },
+    {
+      path: '/example04',
+      name: 'example04',
+      component: () => import(/* webpackChunkName: "example04" */ './views/Example04.vue'),
+    },
+    {
+      path: '/example05',
+      name: 'example05',
+      component: () => import(/* webpackChunkName: "example05" */ './views/Example05.vue'),
+    },
+    {
+      path: '/example06',
+      name: 'example06',
+      component: () => import(/* webpackChunkName: "example06" */ './views/Example06.vue'),
+    },
   ],
 });

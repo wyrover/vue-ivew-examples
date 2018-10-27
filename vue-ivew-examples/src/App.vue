@@ -2,15 +2,21 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/example01">Example01</router-link> |
+      <router-link to="/example02">Example02</router-link> |
+      <router-link to="/example03">Example03</router-link> |
+      <router-link to="/example04">Example04</router-link> |
+      <router-link to="/example05">Example05</router-link> |
+      <router-link to="/example06">Example06</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
